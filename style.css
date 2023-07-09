@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /*nav related style*/
 body{
     font-family: 'Open Sans', sans-serif;
@@ -10,13 +14,15 @@ body{
     background-color: #FD6E0A;
     border: 0px;
     color: white;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
 }
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     color: #181818;
@@ -35,4 +41,34 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+header{
+     background: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.btn-primary1{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.btn-primary2{
+    border-radius: 5px;
+    border: 0px;
+    color: #FD6E0A;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.banner-content{
+    
 }
