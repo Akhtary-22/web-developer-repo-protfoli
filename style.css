@@ -44,9 +44,14 @@ nav a{
 }
 header{
      background: #FFF8F3;
+     background-image: url('./images/header_bg.png');
+     background-repeat: no-repeat;
+     background-position:bottom right ;
+     padding-top: 30px;
+     
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
 }
 .btn-primary1{
@@ -58,7 +63,9 @@ header{
     height: 40px;
     font-size: 20px;
     cursor: pointer;
-    margin-right: 10px;
+    margin-right: 19px;
+    margin-top: 31px;
+    margin-left: 57px;
 }
 .btn-primary2{
     border-radius: 5px;
@@ -69,6 +76,69 @@ header{
     font-size: 20px;
     cursor: pointer;
 }
-.banner-content{
-    
+.banner-greeting{
+    color: var(--dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+.banner-title{
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 80px;
+    margin-left:50px ;
+}
+.banner-description{
+    display: flex;
+    margin-left: 48px;
+    padding: 10px;
+    padding-bottom: 34px
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.banner-profile-pic{
+    width: 500px;
+    margin-left: 155px
+}
+.main{
+    max-width: 1140px;
+}
+/*about part*/
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 200px;
+}
+.about-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-content{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px;      
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+}
+.about-info{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 40px;  
 }
