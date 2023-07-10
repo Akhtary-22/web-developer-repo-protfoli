@@ -122,6 +122,7 @@ header{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    
 }
 .section-content{
     color: #757575;
@@ -147,4 +148,47 @@ header{
     margin: 50px 250px;
    background: #FFF;
    margin: 130px 200px;
+}
+.skills-container{
+    display: flex;
+    
+}
+.skills{
+    padding: 33px;
+    gap: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-right: 24px;  
+}
+.skill-description{
+    box-shadow: 1px solid;
+}
+.resume{
+    background: #FFF;
+    margin: 130px; 
+}
+.resume-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.resume-container{
+    display: flex;
+   
+    
+}
+.education-title{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.qualification-title{
+    color:  #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
