@@ -117,13 +117,13 @@ header{
     background: #FFF8F3;
     margin: 130px 200px;
 }
-.about-title{
+.section-title{
     color:#181818;
     text-align: center;
     font-size: 35px;
     font-weight: 700;
 }
-.about-content{
+.section-content{
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -141,4 +141,10 @@ header{
     font-size: 20px;
     line-height: 30px;
     padding-right: 40px;  
+}
+.Service {
+    padding: 10px;
+    margin: 50px 250px;
+   background: #FFF;
+   margin: 130px 200px;
 }
